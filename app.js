@@ -1,7 +1,7 @@
 const path = require("path")
 const express = require('express')
 const app = express();
-// const bodyParser = require("body-parser");
+const bodyParser = require("body-parser");
 const nodemailer = require('nodemailer');
 const port = 8080;
 const { createPool } = require('mysql');
