@@ -26,7 +26,7 @@ Efficient Ticket Verification: At the ticket counter, admins can use the admin p
 # Tech Stack
 
 The project utilizes the following technologies:
-•Front-end: HTML, CSS, JavaScript
+•Front-end: HTML, CSS, JavaScript \n
 •Back-end: Node.js, Express
 •Database: MySQL
 •Modules:
