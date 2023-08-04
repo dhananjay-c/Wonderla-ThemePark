@@ -9,14 +9,14 @@ The Wonderla Online Ticket Booking System is a full-stack web project designed t
 
 # Features
 
-For Customers: 
+**For Customers:** 
 
 Convenient Ticket Booking: No repeated logins. Book tickets easily without login for a seamless experience.
 Ticket Selection: Customers can browse through available ticket options, view ticket prices, and choose the number of tickets they want to purchase.
 Booking and Payment: Customers can select their preferred date of visit, add tickets to their cart, and book tickets
 Convenient Ticket Selection: Customers can choose between regular amusement park tickets, water park tickets, both, or express tickets based on their preferences. 
 
-For Admins:
+**For Admins:**
 
 Admin Authentication: The admin panel requires login credentials to access its functionalities securely.
 Efficient Ticket Verification: At the ticket counter, admins can use the admin panel to verify customers easily. The panel displays customer details, including email, name, phone number, ticket type, and the number of tickets booked, streamlining the verification process for seamless park entry.
