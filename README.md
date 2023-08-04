@@ -7,7 +7,7 @@ The Wonderla Online Ticket Booking System is a full-stack web project designed t
 
 
 
-<span style="font-size: 88px;">Features</span>
+# Features
 
 For Customers: 
 
