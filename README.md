@@ -7,7 +7,7 @@ The Wonderla Online Ticket Booking System is a full-stack web project designed t
 
 
 
-# Features
+**Features**
 
 For Customers: 
 
@@ -23,7 +23,7 @@ Efficient Ticket Verification: At the ticket counter, admins can use the admin p
 
 
 
-Tech Stack
+# Tech Stack
 
 The project utilizes the following technologies:
 •Front-end: HTML, CSS, JavaScript
@@ -39,7 +39,7 @@ The project utilizes the following technologies:
 
 
 
-Development Setup
+# Development Setup
 
 1.  To set up the development environment, follow these steps:
 2.  Clone the project repository from GitHub.
@@ -52,6 +52,6 @@ Development Setup
 
 
 
-Conclusion
+# Conclusion
 
 The Wonderla Online Ticket Booking System is a comprehensive full-stack web project that offers customers a user-friendly platform to book tickets for the theme park conveniently. With the integrated admin panel, park administrators can efficiently manage ticket verification and booking updates, contributing to a smooth and enjoyable experience for both customers and staff. The technology stack, including HTML, CSS, JavaScript, Node.js, Express, and MySQL, ensures the project's stability, security, and scalability.
