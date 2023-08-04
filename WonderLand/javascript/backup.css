@@ -1,0 +1,431 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+    --yellow: rgb(252, 221, 0);
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #00000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(252, 221, 0);
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    display: flex;
+    height: 5vmax;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    width: 10vmax;
+}
+
+
+.navItems {
+    font-size: 1.05vmax;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+}
+
+.navItem {
+    font-weight: 700;
+    margin-left: 2.5vmax;
+    transition: all .20s;
+}
+
+.navItem:hover {
+    color: rgb(252, 221, 0);
+}
+
+
+.ticket {
+    margin-left: 2.5vmax;
+    padding: 1.7vmax;
+    font-weight: 700;
+    transition: all .7s;
+}
+
+.ticket:hover {
+    background-color: rgb(252, 221, 0);
+    color: black;
+}
+
+
+
+.navLogo {
+    position: absolute;
+    left: 3.5vmax;
+}
+
+.selected {
+    color: rgb(252, 221, 0);
+}
+
+
+
+
+
+
+footer {
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    height: auto;
+}
+
+footer p {
+    color: white;
+    font-size: .8vmax;
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    padding-top: 1vmax;
+    padding-bottom: 2vmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ham {
+    display: none;
+}
+
+
+
+
+/* Media Query */
+
+@media (min-width: 100px) and (max-width: 1100px) {
+
+    .navItems {
+        display: none;
+    }
+
+    .hamMenue {
+        /* border: 2px solid red; */
+        width: 100vw;
+        height: auto;
+        position: absolute;
+        top: 5vmax;
+        background-color: rgb(34, 34, 34);
+        z-index: 1;
+        top: -20vmax;
+    }
+
+    .hamMenue a {
+        display: block;
+        text-align: center;
+        margin-top: .2vmax;
+        margin-bottom: 1vmax;
+    }
+
+
+    .ham {
+        display: block;
+        width: 3vmax;
+        position: absolute;
+        right: 3.5vmax;
+        cursor: pointer;
+    }
+
+
+    @keyframes sham {
+        from {
+            top: -20vmax;
+        }
+
+        to {
+            top: 5vmax;
+        }
+    }
+
+
+    .showHam {
+        animation-name: sham;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+    }
+
+
+    @keyframes hham {
+        from {
+            top: 5vmax;
+        }
+
+        to {
+            top: -20vmax;
+        }
+    }
+
+
+    .hideHam {
+        animation-name: hham;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+    }
+
+
+}
