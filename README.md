@@ -25,17 +25,17 @@ Efficient Ticket Verification: At the ticket counter, admins can use the admin p
 
 # Tech Stack
 
-The project utilizes the following technologies:
-• Front-end: HTML, CSS, JavaScript 
-• Back-end: Node.js, Express
-• Database: MySQL
-• Modules:
-• Built-in module: path
-• External modules (dependencies):
-          • Express (^4.18.2)
-          • Nodemailer (^6.9.3)
-          • MySQL (^2.18.1)
-          • Nodemon (^3.0.1)
+The project utilizes the following technologies:<br>
+• Front-end: HTML, CSS, JavaScript <br>
+• Back-end: Node.js, Express<br>
+• Database: MySQL<br>
+• Modules:<br>
+• Built-in module: path<br>
+• External modules (dependencies):<br>
+          • Express (^4.18.2)<br>
+          • Nodemailer (^6.9.3)<br>
+          • MySQL (^2.18.1)<br>
+          • Nodemon (^3.0.1)<br>
 
 
 
